@@ -19,4 +19,4 @@ for minute in range(0,1441):
 		max = occ
 print(max)
 
-#Optimized method has been developed. Task No2 (Peak Minute) is solved in "optimazed.py". 
+#Optimized method has been developed. Task No2 (Peak Minute) is solved in "optimized.py". 
