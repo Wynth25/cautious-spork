@@ -1,2 +1,2 @@
 # cautious-spork
-Python Projects
+These are some of Python Challanges I've worked on to test my skills.
