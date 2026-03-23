@@ -12,5 +12,5 @@ for train in schedule:
     for minute in range(train[0], train[1]):
         occ[minute] += 1
 
-print(f"The required number of {max(occ)}.")
+print(f"The required number of platforms is {max(occ)}.")
 print(f"Peak minute first appears  at minute {occ.index(max(occ))}.")
