@@ -33,7 +33,7 @@ def calculate_max_profit(prices):
             method.append("HOLD")
 
     print(f"The maximum profit is: {profit}")
-    print(method)
+    print(f"The method is: {method}")
     
 
 
