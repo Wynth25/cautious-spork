@@ -1,11 +1,9 @@
 #   <Task>
-
 import random
 prices = []
 prices = random.choices (range(1,101), k=24)
 for i in range(0, len(prices)):
     print(f"{i}:00 - {i}:59 – {prices[i]}") 
-
 #   </Task>
 
 def calculate_max_profit(prices):
