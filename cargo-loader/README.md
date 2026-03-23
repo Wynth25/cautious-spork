@@ -18,12 +18,12 @@ All or Nothing: You cannot split a package in half. You either load the whole bo
 
 Limited Stock: You only have exactly one of each package in the list.
 
-Your Objective
+## Your Objective
 Write a Python function ```def calculate_max_cargo(max_weight, packages):``` that returns:
 
-## The maximum possible delivery value you can fit in the van.
+1. The maximum possible delivery value you can fit in the van.
 
-The exact list of packages you chose to load.
+2. The exact list of packages you chose to load.
 
 ## Example Test Case
 
