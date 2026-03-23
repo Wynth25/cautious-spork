@@ -1,16 +1,16 @@
-## The Cargo Loader
+# The Cargo Loader
 
-# The Scenario
+## The Scenario
 
 You are writing the loading software for a last-mile delivery van. The van has a strict maximum weight limit. You have a queue of packages waiting to be loaded. Each package has a specific weight and a delivery fee (value) that the company earns for delivering it. Your goal is to pack the van to maximize the total delivery fees earned without snapping the van's axles.
 
-#The Input
+## The Input
 
 Your Python function will receive the van's ```max_weight``` (an integer) and a list of ```packages```. Each package is represented by a list containing its weight and its value: ```[weight, value]```.
 ```max_weight = 50```
 ```packages = [[10, 60], [20, 100], [30, 120], [15, 70]]```
 
-# The Rules of the System
+## The Rules of the System
 
 The Physical Realm: You cannot exceed the ```max_weight``` of the van.
 
@@ -21,11 +21,11 @@ Limited Stock: You only have exactly one of each package in the list.
 Your Objective
 Write a Python function ```def calculate_max_cargo(max_weight, packages):``` that returns:
 
-# The maximum possible delivery value you can fit in the van.
+## The maximum possible delivery value you can fit in the van.
 
 The exact list of packages you chose to load.
 
-# Example Test Case
+## Example Test Case
 
 ```
 Python
