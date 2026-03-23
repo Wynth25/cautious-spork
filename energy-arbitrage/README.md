@@ -11,17 +11,18 @@ Your Python function will receive a list of integers. Each integer represents th
 
 ## The Rules of the System
 
-Capacity: You have a battery that can store exactly 1 unit of energy.
+1. Capacity: You have a battery that can store exactly 1 unit of energy.
 
-Starting State: You start the day with an empty battery and 0 EUR in profit.
+2. Starting State: You start the day with an empty battery and 0 EUR in profit.
 
-Actions: Every hour, you can make exactly one choice: ```BUY```, ```SELL```, or ```HOLD```.
+3. Actions: Every hour, you can make exactly one choice: ```BUY```, ```SELL```, or ```HOLD```.
 
-State Restrictions: * You cannot ```BUY``` if the battery is already full.
+4. State Restrictions: 
+    * You cannot ```BUY``` if the battery is already full.
 
-You cannot ```SELL``` if the battery is empty.
+    * You cannot ```SELL``` if the battery is empty.
 
-Unlimited Trades: You can buy and sell as many times as you want throughout the day to keep accumulating profit, as long as you respect the battery capacity.
+5. Unlimited Trades: You can buy and sell as many times as you want throughout the day to keep accumulating profit, as long as you respect the battery capacity.
 
 ## Your Objective
 
